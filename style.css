@@ -80,6 +80,9 @@ h1 {
   .list-block{
     display: flex;
     border: 3px outset #ffc800;
+    justify-content: space-around;
+    line-height: 40px;
+    margin:0px 50px;
   }
   
   .colors{
@@ -90,6 +93,19 @@ h1 {
     font-size: 20px;
     align-items:center;
     flex-grow:1; 
+  }
+
+  .frst::marker{
+    color:#cebb76;
+    list-style: square;
+    font-size: 70px;
+    margin:0;
+  }
+
+  .scnd::marker{
+    list-style: square;
+    font-size: 70px;
+    color:#b68e00;
   }
   
   .colors:hover{
