@@ -16,6 +16,15 @@ h1 {
     margin: 10px 10px;
   }
 
+  .frst .scnd{
+    display:flex;
+   
+  }
+
+  li{
+     margin-bottom: 13px;
+  }
+
   body{
     background: black;
   }
@@ -33,8 +42,9 @@ h1 {
 
   ul{
     color:#908044c2;;
-    list-style:square;
+    list-style:none;
     font-size: 20px;
+    margin-left: 1px;
     }
 
   img{
@@ -95,17 +105,34 @@ h1 {
     flex-grow:1; 
   }
 
-  .frst::marker{
+  .frst::before{
+    content:"Cc";
     color:#cebb76;
+    border:3px solid #cebb76;
+    background-color:#cebb76 ;
+    margin-right:10px;
+  }
+
+  .scnd::before{
+    content:"Cc";
+    color:#b68e00;
+    border:3px solid #b68e00;
+    background-color:#b68e00 ;
+    margin-right:10px;
+    
+  }
+
+  .frst::marker{
+    /*color:#cebb76;
     list-style: square;
     font-size: 70px;
-    margin:0;
+    margin:0;*/
   }
 
   .scnd::marker{
-    list-style: square;
+    /*list-style: square;
     font-size: 70px;
-    color:#b68e00;
+    color:#b68e00;*/
   }
   
   .colors:hover{
