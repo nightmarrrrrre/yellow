@@ -76,7 +76,7 @@ h1 {
     display:flex;
   }
 
-  .img1{
+  .image{
     display:flex;
     justify-content: center;
     margin-top: 30px;
@@ -179,4 +179,34 @@ h1 {
     font-weight: 100;
     display: flex;
     justify-content: center;
+    }
+
+
+    .img1{
+      width:100%;
+      border:1px solid #ffc800;
+      height:131px;
+    }
+
+    .img2{
+      width:100%;
+      border:1px solid #ffc800;
+      height:131px;
+    }
+
+    .img3{
+      width:100%;
+      border:1px solid #ffc800;
+      height:131px;
+    }
+
+    .photos{
+      display:flex;
+      justify-content: space-around;
+      flex-grow: 1;
+    }
+
+    .img-container{
+      width: 100%;
+      padding:0px 80px;
     }
