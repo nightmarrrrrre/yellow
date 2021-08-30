@@ -45,12 +45,8 @@ h1 {
     list-style:none;
     font-size: 20px;
     margin-left: 1px;
+    text-align:center;
     }
-
-  img{
-    margin-top: 25px;
-    margin-bottom: 25px;
-  }
 
   .paragraph{
     display: block;
@@ -119,20 +115,6 @@ h1 {
     border:3px solid #b68e00;
     background-color:#b68e00 ;
     margin-right:10px;
-    
-  }
-
-  .frst::marker{
-    /*color:#cebb76;
-    list-style: square;
-    font-size: 70px;
-    margin:0;*/
-  }
-
-  .scnd::marker{
-    /*list-style: square;
-    font-size: 70px;
-    color:#b68e00;*/
   }
   
   .colors:hover{
@@ -185,19 +167,19 @@ h1 {
     .img1{
       width:100%;
       border:1px solid #ffc800;
-      height:131px;
+      height:70%;
     }
 
     .img2{
       width:100%;
       border:1px solid #ffc800;
-      height:131px;
+      height:70%;
     }
 
     .img3{
       width:100%;
       border:1px solid #ffc800;
-      height:131px;
+      height:70%;
     }
 
     .photos{
@@ -208,5 +190,6 @@ h1 {
 
     .img-container{
       width: 100%;
-      padding:0px 80px;
+      padding:70px 80px;
+      margin:0px;
     }
