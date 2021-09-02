@@ -198,3 +198,31 @@ h1 {
       padding:70px 80px;
       margin:0px;
     }
+
+   @media (max-width: 1000px) {
+    .img-container {padding:50px;}
+  }
+
+  @media (max-width: 800px) {
+    .img-container {padding:40px;}
+  }
+
+  @media (max-width: 600px) {
+    .img-container {padding:30px;}
+  }
+
+  @media (max-width: 500px) {
+    .img-container {padding:25px;}
+  }
+
+  @media (max-width: 400px) {
+    .img-container {padding:20px;}
+  }
+
+  @media (max-width: 300px) {
+    .img-container {padding:150px;}
+  }
+
+  @media (max-width: 200px) {
+    .img-container {padding:10px;}
+  }
