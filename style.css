@@ -23,6 +23,7 @@ h1 {
 
   li{
      margin-bottom: 13px;
+     list-style-position: outside;
   }
 
   body{
@@ -42,11 +43,14 @@ h1 {
 
   ul{
     color:#908044c2;;
-    list-style:none;
+    list-style:square;
     font-size: 20px;
     margin-left: 1px;
     text-align:center;
+   
     }
+
+    
 
   .paragraph{
     display: block;
@@ -106,20 +110,22 @@ h1 {
     flex-grow:1; 
   }
 
-  .frst::before{
-    content:"Cc";
+  .frst::marker{
     color:#cebb76;
     border:3px solid #cebb76;
     background-color:#cebb76 ;
-    margin-right:10px;
+    /* margin-right:10px;*/
+     margin:0;
+    font-size: 70px;
   }
 
-  .scnd::before{
-    content:"Cc";
+  .scnd::marker{
     color:#b68e00;
     border:3px solid #b68e00;
     background-color:#b68e00 ;
     margin-right:10px;
+    font-size: 70px;
+    margin-left:30px;
   }
   
   .colors:hover{
@@ -219,10 +225,6 @@ h1 {
     .img-container {padding:20px;}
   }
 
-  @media (max-width: 300px) {
+  @media (max-width: 350px) {
     .img-container {padding:150px;}
-  }
-
-  @media (max-width: 200px) {
-    .img-container {padding:10px;}
   }
