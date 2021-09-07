@@ -47,7 +47,7 @@ h1 {
     font-size: 20px;
     margin-left: 1px;
     text-align:center;
-   
+    list-style-position: outside;
     }
 
     
