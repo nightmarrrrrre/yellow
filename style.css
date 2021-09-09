@@ -24,6 +24,7 @@ h1 {
   li{
      margin-bottom: 13px;
      list-style-position: outside;
+     display:flex;
   }
 
   body{
@@ -43,7 +44,7 @@ h1 {
 
   ul{
     color:#908044c2;;
-    list-style:square;
+    list-style:none;
     font-size: 20px;
     margin-left: 1px;
     text-align:center;
@@ -110,22 +111,29 @@ h1 {
     flex-grow:1; 
   }
 
-  .frst::marker{
+  .frst::before{
+    content:"Cvc";
     color:#cebb76;
-    border:3px solid #cebb76;
+    border:2px solid #cebb76;
     background-color:#cebb76 ;
     /* margin-right:10px;*/
-     margin:0;
-    font-size: 70px;
+     margin-right:10px;
+    font-size: 13px;
+    margin-left:30px;
+    height:22px;
+
   }
 
-  .scnd::marker{
+  .scnd::before{
+    content:"Cvc";
     color:#b68e00;
-    border:3px solid #b68e00;
+    border:2px solid #b68e00;
     background-color:#b68e00 ;
     margin-right:10px;
-    font-size: 70px;
+    font-size: 13px;
     margin-left:30px;
+    margin-right:10px;
+    height:22px;
   }
   
   .colors:hover{
