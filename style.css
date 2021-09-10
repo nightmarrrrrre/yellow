@@ -23,6 +23,8 @@ h1 {
 
   li{
      margin-bottom: 13px;
+     list-style-position: outside;
+     display:flex;
   }
 
   body{
@@ -46,7 +48,10 @@ h1 {
     font-size: 20px;
     margin-left: 1px;
     text-align:center;
+    list-style-position: outside;
     }
+
+    
 
   .paragraph{
     display: block;
@@ -107,19 +112,28 @@ h1 {
   }
 
   .frst::before{
-    content:"Cc";
+    content:"Cvc";
     color:#cebb76;
-    border:3px solid #cebb76;
+    border:2px solid #cebb76;
     background-color:#cebb76 ;
-    margin-right:10px;
+    /* margin-right:10px;*/
+     margin-right:10px;
+    font-size: 13px;
+    margin-left:30px;
+    height:22px;
+
   }
 
   .scnd::before{
-    content:"Cc";
+    content:"Cvc";
     color:#b68e00;
-    border:3px solid #b68e00;
+    border:2px solid #b68e00;
     background-color:#b68e00 ;
     margin-right:10px;
+    font-size: 13px;
+    margin-left:30px;
+    margin-right:10px;
+    height:22px;
   }
   
   .colors:hover{
@@ -198,3 +212,27 @@ h1 {
       padding:70px 80px;
       margin:0px;
     }
+
+   @media (max-width: 1000px) {
+    .img-container {padding:50px;}
+  }
+
+  @media (max-width: 800px) {
+    .img-container {padding:40px;}
+  }
+
+  @media (max-width: 600px) {
+    .img-container {padding:30px;}
+  }
+
+  @media (max-width: 500px) {
+    .img-container {padding:25px;}
+  }
+
+  @media (max-width: 400px) {
+    .img-container {padding:20px;}
+  }
+
+  @media (max-width: 351px) {
+    .img-container {padding:150px;}
+  }
