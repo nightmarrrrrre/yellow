@@ -209,30 +209,49 @@ h1 {
 
     .img-container{
       width: 100%;
-      padding:70px 80px;
+      padding:0px 80px;
       margin:0px;
+      margin-top:40px;
+      margin-bottom:0px;
     }
 
    @media (max-width: 1000px) {
-    .img-container {padding:50px;}
+    .img-container {padding: 20px 50px;
+      padding-bottom: 0px;}
   }
 
   @media (max-width: 800px) {
-    .img-container {padding:40px;}
+    .img-container {padding:20px 40px;
+      padding-bottom: 0px;}
   }
 
   @media (max-width: 600px) {
-    .img-container {padding:30px;}
+    .img-container {padding:15px 30px;
+      padding-bottom: 0px;}
   }
 
   @media (max-width: 500px) {
-    .img-container {padding:25px;}
+    .img-container {padding:10px 25px;
+      padding-bottom: 0px;}
   }
 
   @media (max-width: 400px) {
-    .img-container {padding:20px;}
+    .img-container {padding:10px 20px;
+      padding-bottom: 0px;}
   }
 
   @media (max-width: 351px) {
-    .img-container {padding:150px;}
+    .img-container {padding:70px 150px;
+    padding-bottom: 0px;}
+  }
+
+  .label{
+    color:#ffc800;
+    font-family: Georgia, 'Times New Roman', Times, serif; font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: 100;
+    display:flex;
+    text-align: center;
+    margin-top:0px;
+    justify-content: space-around;
   }
