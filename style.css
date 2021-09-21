@@ -51,6 +51,10 @@ h1 {
     list-style-position: outside;
     }
 
+    @media (max-width:600px){
+      .ul2{margin-top:0px;}
+    }
+
     
 
   .paragraph{
@@ -100,6 +104,11 @@ h1 {
     line-height: 40px;
     margin:0px 50px;
   }
+
+  @media (max-width:600px) {
+    .list-block{flex-direction:column;
+    justify-content: center;}
+  }
   
   .colors{
     /*margin-top: 15px;*/
@@ -134,6 +143,22 @@ h1 {
     margin-left:30px;
     margin-right:10px;
     height:22px;
+  }
+
+  .scnd-last::before{
+    content:"Cvc";
+    color:#b68e00;
+    border:2px solid #b68e00;
+    background-color:#b68e00 ;
+    margin-right:10px;
+    font-size: 13px;
+    margin-left:30px;
+    margin-right:10px;
+    height:22px;
+  }
+
+  @media(max-width:600px){
+    .scnd-last{margin-bottom: 4px}
   }
   
   .colors:hover{
@@ -257,14 +282,22 @@ h1 {
     display:flex;
   }
 
+  @media(max-width:900px){
+     .aside-form-block{display:block;}
+    
+    }
+
   aside{
     display:flex;
     flex-direction: column;
     padding:20px 30px 30px 30px;
-    max-width:530px;
+    max-width:50%;
     min-width:400px;
   }
 
+  @media(max-width:900px){
+     aside{max-width:100%;}
+  }
   .an-img{
     border:2px outset black ;
     font-family: Georgia, 'Times New Roman', Times, serif; font-family: Georgia, 'Times New Roman', Times, serif;
@@ -275,5 +308,6 @@ h1 {
   .aside-p{
     font-size: 20px;
     text-align:center;
-    margin-right:10px;
+    margin:20px;
+    padding-bottom:20px;
   }
